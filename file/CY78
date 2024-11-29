@@ -1,0 +1,530 @@
+#!/bin/bash
+
+# Warna
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+yellow='\033[33;1m'
+red='\033[31;1m'
+
+# Fungsi untuk menampilkan menu utama
+show_menu() {
+    clear
+    echo -e "${purple}╔══════════════════════════════════════════╗"
+    echo -e "${purple}║ ${blue}•${yellow} Sekarang jam: ${green}$(date +"%H:%M:%S")${purple}                 ║"
+    echo -e "${purple}║ ${blue}•${yellow} IP YOU: ${green}127.0.0.0${purple}                ║"
+    echo -e "${purple}║ ${green}•${yellow} ID TERMUX: ${green}U0_458${purple}               ║"
+    echo -e "${purple}║ ${red}•${yellow} AKTIFKAN VPN: ${green}STATUS ON${purple}                ║"
+    echo -e "${purple}╔══════════════════════════════════════════╝"
+    echo -e "${purple}║${yellow} [01] ${green}[01] SPAM WA DAN SMS               ${purple}║"
+    echo -e "${purple}║${yellow} [02] ${green}MENU CAM DAN PHISHING              ${purple}║"
+    echo -e "${purple}║${yellow} [03] ${green}MENU BOT WA                        ${purple}║"
+    echo -e "${purple}║${yellow} [04] ${green}MENU DDOS                          ${purple}║"
+    echo -e "${purple}║${yellow} [05] ${green}MENU SPAM GMAIL                    ${purple}║"
+    echo -e "${purple}║${yellow} [06] ${green}MENU OSINT                         ${purple}║"
+    echo -e "${purple}║${yellow} [07] ${green}MENU WATERMAX                      ${purple}║"
+    echo -e "${purple}║${yellow} [08] ${green}ADB SIGNAL 9 9 10 11 14            ${purple}║"
+    echo -e "${purple}║${yellow} [09] ${green}MENU OS DAN TUTOR PREM             ${purple}║"
+    echo -e "${purple}║${yellow} [10] ${green}MENU TELEGRAM TOOLS                ${purple}║"
+    echo -e "${purple}╚═════════════════════════════════════════╝"
+}
+
+# Fungsi untuk mengeksekusi setiap menu
+execute_option() {
+    case $1 in
+        1|01)
+            echo -e "${green}Menu SPAM WA DAN SMS dipilih."
+            # Tambahkan logika untuk menu ini
+#!/bin/bash
+
+# Warna
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+yellow='\033[33;1m'
+red='\033[31;1m'
+
+# Fungsi untuk menampilkan menu utama
+show_menu() {
+    clear
+    echo -e "${purple}╔══════════════════════════════════════════╗"
+    echo -e "${purple}║ ${blue}•${yellow} Sekarang jam: ${green}$(date +"%H:%M:%S")${purple}                 ║"
+    echo -e "${purple}║ ${blue}•${yellow} IP YOU: ${green}127.0.0.0${purple}                                 ║"
+    echo -e "${purple}║ ${green}•${yellow} ID TERMUX: ${green}U0_458${purple}                                ║"
+    echo -e "${purple}║ ${red}•${yellow} AKTIFKAN VPN: ${green}STATUS ON${purple}                ║"
+    echo -e "${purple}╔══════════════════════════════════════════╝"
+    echo -e "${purple}║${yellow} [01] ${green}MENU SPAM WA DAN SMS                    ${purple}║"
+    echo -e "${purple}║${yellow} [02] ${green}MENU SPAM MOD V1                       ${purple}║"
+    echo -e "${purple}║${yellow} [03] ${green}MENU SPAM SMS MOD                      ${purple}║"
+    echo -e "${purple}║${yellow} [04] ${green}MENU SPAM PAIR WA                      ${purple}║"
+    echo -e "${purple}║${yellow} [05] ${green}MENU SPAM KETAR KETIR                  ${purple}║"
+     echo -e "${purple}╚══════════════════════════════════════════╝"
+}
+
+# Fungsi untuk mengeksekusi setiap menu
+execute_option() {
+    case $1 in
+        1|01)
+            echo -e "${green}Menu SPAM WA DAN SMS dipilih."
+            # Tambahkan logika untuk menu ini
+pkg update
+git clone https://github.com/rickyfazaa/MySPAMBot-OTP
+cd MySPAMBot-OTP
+python main.py
+            ;;
+        2|02)
+            echo -e "${green}Menu CAM DAN PHISHING dipilih."
+            # Tambahkan logika untuk menu ini
+ apt update && apt upgrade
+ pkg install php
+ pkg install git
+ git clone https://github.com/underxploit/Enoxuia
+ cd Enoxuia
+ php enox.php            
+;;
+        3|03)
+            echo -e "${green}Menu BOT WA dipilih."
+            # Tambahkan logika untuk menu ini
+pkg update && pkg upgrad
+
+pkg install python
+
+pip install requests
+
+pkg install git
+
+git clone https://github.com/Hadesx2004/FREESPAMSMS
+
+cd FREESPAMSMS
+
+python SPAMSMS.py
+            ;;
+        4|04)
+            echo -e "${green}Menu DDOS dipilih."
+            # Tambahkan logika untuk menu ini
+ apt update && apt upgrade -y
+
+ pkg install git -y
+
+pkg install python -y
+
+pkg install python3 -y
+
+pkg install python git -y
+
+pkg install termux-api
+
+pip install re
+
+pip install colorama
+
+ git clone https://github.com/Hackerscolonyofficial/HCO-Bomber; 
+
+ cd HCO-Bomber 
+
+ chmod +x hco-bomber
+
+ ./hco-bomber          
+  ;;
+        5|05)
+            echo -e "${green}Menu SPAM GMAIL dipilih."
+            # Tambahkan logika untuk menu ini
+pkg update
+git clone https://github.com/rickyfazaa/MySPAMBot-OTP
+cd MySPAMBot-OTP
+python main.py
+            ;;
+        *)
+            echo -e "${red}Pilihan tidak valid!"
+            ;;
+    esac
+}
+
+# Main program
+show_menu
+read -p "Pilih >> " user_choice
+execute_option "$user_choice"
+            ;;
+        2|02)
+            echo -e "${green}Menu CAM DAN PHISHING dipilih."
+            # Tambahkan logika untuk menu ini
+#!/bin/bash
+
+# Warna
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+yellow='\033[33;1m'
+red='\033[31;1m'
+
+# Fungsi untuk menampilkan menu utama
+show_menu() {
+    clear
+    echo -e "${purple}╔══════════════════════════════════════════╗"
+    echo -e "${purple}║ ${blue}•${yellow} Sekarang jam: ${green}$(date +"%H:%M:%S")${purple}                  ║"
+    echo -e "${purple}║ ${blue}•${yellow} IP YOU: ${green}127.0.0.0${purple}                            ║"
+    echo -e "${purple}║ ${green}•${yellow} ID TERMUX: ${green}U0_458${purple}                            ║"
+    echo -e "${purple}║ ${red}•${yellow} AKTIFKAN VPN: ${green}STATUS ON${purple}                      ║"
+    echo -e "${purple}╔══════════════════════════════════════════╝"
+    echo -e "${purple}║${yellow} [01] ${green}MENU SPAM WA DAN SMS               ${purple}║"
+    echo -e "${purple}║${yellow} [02] ${green}MENU CAM DAN PHISHING              ${purple}║"
+    echo -e "${purple}║${yellow} [03] ${green}MENU BOT WA                        ${purple}║"
+    echo -e "${purple}║${yellow} [04] ${green}MENU DDOS                          ${purple}║"
+    echo -e "${purple}║${yellow} [05] ${green}MENU SPAM GMAIL                    ${purple}║"
+    echo -e "${purple}║${yellow} [06] ${green}MENU OSINT                         ${purple}║"
+    echo -e "${purple}║${yellow} [07] ${green}MENU WATERMAX                      ${purple}║"
+    echo -e "${purple}║${yellow} [08] ${green}ADB SIGNAL 9 9 10 11 14            ${purple}║"
+    echo -e "${purple}║${yellow} [09] ${green}MENU OS DAN TUTOR PREM             ${purple}║"
+    echo -e "${purple}║${yellow} [10] ${green}MENU TELEGRAM TOOLS                ${purple}║"
+    echo -e "${purple}╚══════════════════════════════════════════╝"
+}
+
+# Fungsi untuk mengeksekusi setiap menu
+execute_option() {
+    case $1 in
+        1|01)
+            echo -e "${green}Menu SPAM WA DAN SMS dipilih."
+            # Tambahkan logika untuk menu ini
+
+            ;;
+        2|02)
+            echo -e "${green}Menu CAM DAN PHISHING dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        3|03)
+            echo -e "${green}Menu BOT WA dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        4|04)
+            echo -e "${green}Menu DDOS dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        5|05)
+            echo -e "${green}Menu SPAM GMAIL dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        6|06)
+            echo -e "${green}Menu OSINT dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        7|07)
+            echo -e "${green}Menu WATERMAX dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        8|08)
+            echo -e "${green}ADB SIGNAL dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        9|09)
+            echo -e "${green}Menu OS DAN TUTOR PREM dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        10)
+            echo -e "${green}Menu TELEGRAM TOOLS dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        *)
+            echo -e "${red}Pilihan tidak valid!"
+            ;;
+    esac
+}
+
+# Main program
+show_menu
+read -p "Pilih >> " user_choice
+execute_option "$user_choice"
+            ;;
+        3|03)
+            echo -e "${green}Menu BOT WA dipilih."
+            # Tambahkan logika untuk menu ini
+#!/bin/bash
+
+# Warna
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+yellow='\033[33;1m'
+red='\033[31;1m'
+
+# Fungsi untuk menampilkan menu utama
+show_menu() {
+    clear
+    echo -e "${purple}╔══════════════════════════════════════════╗"
+    echo -e "${purple}║ ${blue}•${yellow} Sekarang jam: ${green}$(date +"%H:%M:%S")${purple}                  ║"
+    echo -e "${purple}║ ${blue}•${yellow} IP YOU: ${green}127.0.0.0${purple}                            ║"
+    echo -e "${purple}║ ${green}•${yellow} ID TERMUX: ${green}U0_458${purple}                            ║"
+    echo -e "${purple}║ ${red}•${yellow} AKTIFKAN VPN: ${green}STATUS ON${purple}                      ║"
+    echo -e "${purple}╔══════════════════════════════════════════╝"
+    echo -e "${purple}║${yellow} [01] ${green}MENU SPAM WA DAN SMS               ${purple}║"
+    echo -e "${purple}║${yellow} [02] ${green}MENU CAM DAN PHISHING              ${purple}║"
+    echo -e "${purple}║${yellow} [03] ${green}MENU BOT WA                        ${purple}║"
+    echo -e "${purple}║${yellow} [04] ${green}MENU DDOS                          ${purple}║"
+    echo -e "${purple}║${yellow} [05] ${green}MENU SPAM GMAIL                    ${purple}║"
+    echo -e "${purple}║${yellow} [06] ${green}MENU OSINT                         ${purple}║"
+    echo -e "${purple}║${yellow} [07] ${green}MENU WATERMAX                      ${purple}║"
+    echo -e "${purple}║${yellow} [08] ${green}ADB SIGNAL 9 9 10 11 14            ${purple}║"
+    echo -e "${purple}║${yellow} [09] ${green}MENU OS DAN TUTOR PREM             ${purple}║"
+    echo -e "${purple}║${yellow} [10] ${green}MENU TELEGRAM TOOLS                ${purple}║"
+    echo -e "${purple}╚══════════════════════════════════════════╝"
+}
+
+# Fungsi untuk mengeksekusi setiap menu
+execute_option() {
+    case $1 in
+        1|01)
+            echo -e "${green}Menu SPAM WA DAN SMS dipilih."
+            # Tambahkan logika untuk menu ini
+
+            ;;
+        2|02)
+            echo -e "${green}Menu CAM DAN PHISHING dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        3|03)
+            echo -e "${green}Menu BOT WA dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        4|04)
+            echo -e "${green}Menu DDOS dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        5|05)
+            echo -e "${green}Menu SPAM GMAIL dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        6|06)
+            echo -e "${green}Menu OSINT dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        7|07)
+            echo -e "${green}Menu WATERMAX dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        8|08)
+            echo -e "${green}ADB SIGNAL dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        9|09)
+            echo -e "${green}Menu OS DAN TUTOR PREM dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        10)
+            echo -e "${green}Menu TELEGRAM TOOLS dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        *)
+            echo -e "${red}Pilihan tidak valid!"
+            ;;
+    esac
+}
+
+# Main program
+show_menu
+read -p "Pilih >> " user_choice
+execute_option "$user_choice"
+            ;;
+        4|04)
+            echo -e "${green}Menu DDOS dipilih."
+            # Tambahkan logika untuk menu ini
+#!/bin/bash
+
+# Warna
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+yellow='\033[33;1m'
+red='\033[31;1m'
+
+# Fungsi untuk menampilkan menu utama
+show_menu() {
+    clear
+    echo -e "${purple}╔══════════════════════════════════════════╗"
+    echo -e "${purple}║ ${blue}•${yellow} Sekarang jam: ${green}$(date +"%H:%M:%S")${purple}                  ║"
+    echo -e "${purple}║ ${blue}•${yellow} IP YOU: ${green}127.0.0.0${purple}                            ║"
+    echo -e "${purple}║ ${green}•${yellow} ID TERMUX: ${green}U0_458${purple}                            ║"
+    echo -e "${purple}║ ${red}•${yellow} AKTIFKAN VPN: ${green}STATUS ON${purple}                      ║"
+    echo -e "${purple}╔══════════════════════════════════════════╝"
+    echo -e "${purple}║${yellow} [01] ${green}MENU SPAM WA DAN SMS               ${purple}║"
+    echo -e "${purple}║${yellow} [02] ${green}MENU CAM DAN PHISHING              ${purple}║"
+    echo -e "${purple}║${yellow} [03] ${green}MENU BOT WA                        ${purple}║"
+    echo -e "${purple}║${yellow} [04] ${green}MENU DDOS                          ${purple}║"
+    echo -e "${purple}║${yellow} [05] ${green}MENU SPAM GMAIL                    ${purple}║"
+    echo -e "${purple}║${yellow} [06] ${green}MENU OSINT                         ${purple}║"
+    echo -e "${purple}║${yellow} [07] ${green}MENU WATERMAX                      ${purple}║"
+    echo -e "${purple}║${yellow} [08] ${green}ADB SIGNAL 9 9 10 11 14            ${purple}║"
+    echo -e "${purple}║${yellow} [09] ${green}MENU OS DAN TUTOR PREM             ${purple}║"
+    echo -e "${purple}║${yellow} [10] ${green}MENU TELEGRAM TOOLS                ${purple}║"
+    echo -e "${purple}╚══════════════════════════════════════════╝"
+}
+
+# Fungsi untuk mengeksekusi setiap menu
+execute_option() {
+    case $1 in
+        1|01)
+            echo -e "${green}Menu SPAM WA DAN SMS dipilih."
+            # Tambahkan logika untuk menu ini
+
+            ;;
+        2|02)
+            echo -e "${green}Menu CAM DAN PHISHING dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        3|03)
+            echo -e "${green}Menu BOT WA dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        4|04)
+            echo -e "${green}Menu DDOS dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        5|05)
+            echo -e "${green}Menu SPAM GMAIL dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        6|06)
+            echo -e "${green}Menu OSINT dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        7|07)
+            echo -e "${green}Menu WATERMAX dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        8|08)
+            echo -e "${green}ADB SIGNAL dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        9|09)
+            echo -e "${green}Menu OS DAN TUTOR PREM dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        10)
+            echo -e "${green}Menu TELEGRAM TOOLS dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        *)
+            echo -e "${red}Pilihan tidak valid!"
+            ;;
+    esac
+}
+
+# Main program
+show_menu
+read -p "Pilih >> " user_choice
+execute_option "$user_choice"
+            ;;
+        5|05)
+            echo -e "${green}Menu SPAM GMAIL dipilih."
+            # Tambahkan logika untuk menu ini
+#!/bin/bash
+
+# Warna
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+yellow='\033[33;1m'
+red='\033[31;1m'
+
+# Fungsi untuk menampilkan menu utama
+show_menu() {
+    clear
+    echo -e "${purple}╔══════════════════════════════════════════╗"
+    echo -e "${purple}║ ${blue}•${yellow} Sekarang jam: ${green}$(date +"%H:%M:%S")${purple}                  ║"
+    echo -e "${purple}║ ${blue}•${yellow} IP YOU: ${green}127.0.0.0${purple}                            ║"
+    echo -e "${purple}║ ${green}•${yellow} ID TERMUX: ${green}U0_458${purple}                            ║"
+    echo -e "${purple}║ ${red}•${yellow} AKTIFKAN VPN: ${green}STATUS ON${purple}                      ║"
+    echo -e "${purple}╔══════════════════════════════════════════╝"
+    echo -e "${purple}║${yellow} [01] ${green}MENU SPAM WA DAN SMS               ${purple}║"
+    echo -e "${purple}║${yellow} [02] ${green}MENU CAM DAN PHISHING              ${purple}║"
+    echo -e "${purple}║${yellow} [03] ${green}MENU BOT WA                        ${purple}║"
+    echo -e "${purple}║${yellow} [04] ${green}MENU DDOS                          ${purple}║"
+    echo -e "${purple}║${yellow} [05] ${green}MENU SPAM GMAIL                    ${purple}║"
+    echo -e "${purple}║${yellow} [06] ${green}MENU OSINT                         ${purple}║"
+    echo -e "${purple}║${yellow} [07] ${green}MENU WATERMAX                      ${purple}║"
+    echo -e "${purple}║${yellow} [08] ${green}ADB SIGNAL 9 9 10 11 14            ${purple}║"
+    echo -e "${purple}║${yellow} [09] ${green}MENU OS DAN TUTOR PREM             ${purple}║"
+    echo -e "${purple}║${yellow} [10] ${green}MENU TELEGRAM TOOLS                ${purple}║"
+    echo -e "${purple}╚══════════════════════════════════════════╝"
+}
+
+# Fungsi untuk mengeksekusi setiap menu
+execute_option() {
+    case $1 in
+        1|01)
+            echo -e "${green}Menu SPAM WA DAN SMS dipilih."
+            # Tambahkan logika untuk menu ini
+
+            ;;
+        2|02)
+            echo -e "${green}Menu CAM DAN PHISHING dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        3|03)
+            echo -e "${green}Menu BOT WA dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        4|04)
+            echo -e "${green}Menu DDOS dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        5|05)
+            echo -e "${green}Menu SPAM GMAIL dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        6|06)
+            echo -e "${green}Menu OSINT dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        7|07)
+            echo -e "${green}Menu WATERMAX dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        8|08)
+            echo -e "${green}ADB SIGNAL dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        9|09)
+            echo -e "${green}Menu OS DAN TUTOR PREM dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        10)
+            echo -e "${green}Menu TELEGRAM TOOLS dipilih."
+            # Tambahkan logika untuk menu ini
+            ;;
+        *)
+            echo -e "${red}Pilihan tidak valid!"
+            ;;
+    esac
+}
+
+# Main program
+show_menu
+read -p "Pilih >> " user_choice
+execute_option "$user_choice"
+            ;;
+        6|06)
+            echo -e "${green}Menu OSINT dipilih."
+            # Tambahkan logika untuk menu ini
+#!/bin/bash
+
+# Warna
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+yellow='\033[33;1m'
+red='\033[31;1m'
+
+# Fungsi untuk menampilkan menu utama
+show_menu() {
+    clear
+    echo -e "${purple}╔══════════════════════════════════════════╗"
+    echo -e "${purple}║ ${blue}•${yellow} Sekarang jam: ${green}$(date +"%H:%M:%S")${purple}                  ║"
+    echo -e "${purple}║ ${blue}•${yellow} IP YOU: ${green}127.0.0.0${purple}                            ║"
+    echo -e "${purple}║ ${green}•${yellow} ID TERMUX: ${green}U0_458${purple}                            ║"
+    echo -e "${purple}║ ${red}•${yellow} AKTIFKAN VPN: ${green}STATUS ON${purple}                      ║"
+    echo -e "${purple}╔══════════════════════════════════════════╝"
+    echo -e "${purple}║${yellow} [01] ${green}MENU SPAM WA DAN SMS               ${purple}║"
+    echo -e "${purple}║${yellow} [02] ${green}MENU CAM DAN PHISHING              ${purple}║"
+    echo -e "${purple}║${yellow} [03] ${green}MENU BOT WA                        ${purple}║"
+    echo -e "${purple}║${yellow} [04] ${green}MENU DDOS                          ${purple}║"
+    echo -e "${purple}║${yellow} [05] ${green}MENU SPAM GMAIL                    ${purple}║"
+    echo -e "${purple}║${yellow} [0
