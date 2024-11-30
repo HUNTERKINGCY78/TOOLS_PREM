@@ -103,7 +103,7 @@ then
 echo -e " buat lah token anda dan juga sama aid kamu di telegram"
 sleep  3
 xdg-open "t.me/STR_TBOT"
-if
+fi
 if [ $updt = 4 ] || [ $updt = 04 ]
 then
 pkg update upgrade -y
