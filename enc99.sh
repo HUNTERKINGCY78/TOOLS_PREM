@@ -123,60 +123,61 @@ options:
   -ma n, --mostActive n
                         Show the top n members by messages and their message count. Need to pass n > 0 as input
                  "       
-if
+fi
 
 if [ $updt = 5 ] || [ $updt = 05 ]
 then
 pkg update
-if
+fi
 
 
 if [ $updt = 6 ] || [ $updt = 06 ]
 then
 pkg update
-if
+fi
 
 if [ $updt = 7 ] || [ $updt = 07 ]
 then
 pkg update
-if
+fi
 
 if [ $updt = 8 ] || [ $updt = 08 ]
 then
 
-if
+
 pkg update
+fi
 if [ $updt = 9 ] || [ $updt = 09 ]
 then
 pkg update
-if
+fi
 
 if [ $updt = 10 ] || [ $updt = 10 ]
 then
 pkg update
-if
+fi
 if [ $updt = 11 ] || [ $updt = 11 ]
 then
 pkg update
-if
+fi
 if [ $updt = 12 ] || [ $updt = 12 ]
 then
 pkg update
-if
+fi
 if [ $updt = 13 ] || [ $updt = 13 ]
 then
 pkg update upgrade -y
 pkg install x11 -y
 pkg install tigervnc -y
 vncserver 
-if
+fi
 if [ $updt = 14 ] || [ $updt = 14 ]
 then
 pkg update upgrade 
 echo -e ". setelah masuk andadtik di run akun root anda ketik tigervnc atau vncserver vnc-start ."
 debian
 
-if
+fi
 if [ $updt = 15 ] || [ $updt = 15 ]
 then
 pkg update upgrade -y
@@ -186,94 +187,93 @@ echo -e " pilih nh atau akun root nh -r"
 echo -e "contoh run nh berarti dia jalan di root localhost ® Linux"
 echo -e " kalo error nh linux chat admin "
 nh 
-if
+fi
 if [ $updt = 16 ] || [ $updt = 16 ]
 then
 pkg update
 echo -e " silakan di download dulu os copy link ini bawah 👇 kalo sudah di download chat admin nya"
 echo -e "https://drive.google.com/file/d/1-enmrbDmdwIARvY2MMdYWSCSjZ7eo7ba/view?usp=drivesdk"
-if
+fi
 if [ $updt = 17 ] || [ $updt = 17 ]
 then
 pkg update
-if
+fi
 if [ $updt = 18 ] || [ $updt = 18 ]
 then
 pkg update
-if
+fi
 if [ $updt = 19 ] || [ $updt = 19 ]
 then
 pkg update upgrade -y
 echo -e " cek host merupakan ddos kalo merah 403 berarti web ga ada 503 khusus phising "
 echo -e "https://check-host.net"
-if
+fi
 if [ $updt = 20 ] || [ $updt = 20 ]
 then
 pkg update
-if
+fi
 
 
 if [ $updt = 21 ] || [ $updt = 21 ]
 then
 pkg update
-if
+fi
 
 
 if [ $updt = 22 ] || [ $updt = 22 ]
 then
 pkg update
-if
+fi
 if [ $updt = 23 ] || [ $updt = 23 ]
 then
 pkg update
-if
+fi
 if [ $updt = 24 ] || [ $updt = 24 ]
 then
 pkg update
-if
+fi
 if [ $updt = 25 ] || [ $updt = 25 ]
 then
 pkg update
-if
+fi
 if [ $updt = 26 ] || [ $updt = 26 ]
 then
 pkg update
-if
+fi
 if [ $updt = 27 ] || [ $updt = 27 ]
 then
 pkg update
-if
+fi
 if [ $updt = 28 ] || [ $updt = 28 ]
 then
 pkg update
-if
+fi
 
 if [ $updt = 29 ] || [ $updt = 29 ]
 then
 pkg update
-if
+fi
 
 if [ $updt = 30 ] || [ $updt = 30 ]
 then
 pkg update
-if
+fi
 if [ $updt = 31 ] || [ $updt = 31 ]
 then
 pkg update
-if
+fi
 if [ $updt = 32 ] || [ $updt = 32 ]
 then
 pkg update
-if
+fi
 if [ $updt = 33 ] || [ $updt = 33 ]
 then
 pkg update
-if
+fi
 if [ $updt = 34 ] || [ $updt = 34 ]
 then
 pkg update
-if
-
+fi
 
 
 
