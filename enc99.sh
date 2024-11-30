@@ -106,7 +106,23 @@ xdg-open "t.me/STR_TBOT"
 if
 if [ $updt = 4 ] || [ $updt = 04 ]
 then
-pkg update
+pkg update upgrade -y
+git clone https://github.com/orSpec/telegram_analyzer
+cd telegram_analyzer
+pip install -r requirements.txt
+echo -e "python analyzer.py [-h] [-t] [-dh [UserID ...]] [-w] [-s] file"
+echo -e "file                  JSON file containing the telegram data
+
+options:
+  -h, --help            show this help message and exit
+  -t, --time            Create chart of posting times
+  -dh [UserID ...], --daysHours [UserID ...]
+                        Create heatmap of posting days vs. times for all users or certain UserIDs
+  -w, --weekday         Create chart of messages per weekday
+  -s, --statistics      Show statistics (#members, #messages, #mean nr of messages etc.)
+  -ma n, --mostActive n
+                        Show the top n members by messages and their message count. Need to pass n > 0 as input
+                 "       
 if
 
 if [ $updt = 5 ] || [ $updt = 05 ]
