@@ -72,7 +72,12 @@ echo -e "\033[35;1m║\033[33;1m [32]\033[32;1m UPDATE SC                       
 echo -e "\033[35;1m║\033[33;1m [33]\033[32;1m MENU HARI                               \033[35;1m    ║"
 echo -e "\033[35;1m║\033[33;1m [34]\033[32;1m MENU CAT << TELEGRAM                    \033[35;1m    ║"
 echo -e "\033[35;1m╚═══════════════════════════════════════════════════╝"
-read -p "pilih >> " updt
+echo -e "\033[34;1m║"
+echo -e "\033[34;1m║"
+read -p "╚══[CY78@localhost]  ~/home" updt
+
+
+
 # data
 if [ $updt = 1 ] || [ $updt = 01 ]
 then
