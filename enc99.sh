@@ -165,19 +165,33 @@ pkg update
 if
 if [ $updt = 13 ] || [ $updt = 13 ]
 then
-pkg update
+pkg update upgrade -y
+pkg install x11 -y
+pkg install tigervnc -y
+vncserver 
 if
 if [ $updt = 14 ] || [ $updt = 14 ]
 then
-pkg update
+pkg update upgrade 
+echo -e ". setelah masuk andadtik di run akun root anda ketik tigervnc atau vncserver vnc-start ."
+debian
+
 if
 if [ $updt = 15 ] || [ $updt = 15 ]
 then
-pkg update
+pkg update upgrade -y
+pkg install wget -y
+pkg install curl -y
+echo -e " pilih nh atau akun root nh -r"
+echo -e "contoh run nh berarti dia jalan di root localhost ® Linux"
+echo -e " kalo error nh linux chat admin "
+nh 
 if
 if [ $updt = 16 ] || [ $updt = 16 ]
 then
 pkg update
+echo -e " silakan di download dulu os copy link ini bawah 👇 kalo sudah di download chat admin nya"
+echo -e "https://drive.google.com/file/d/1-enmrbDmdwIARvY2MMdYWSCSjZ7eo7ba/view?usp=drivesdk"
 if
 if [ $updt = 17 ] || [ $updt = 17 ]
 then
