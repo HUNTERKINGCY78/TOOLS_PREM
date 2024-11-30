@@ -143,3 +143,9 @@ elif [ "$c2" == "33" ]; then
 elif [ "$c2" == "34" ]; then
 
 pkg update
+
+
+
+else
+    echo "Opsi tidak valid. Silakan coba lagi."
+fi
