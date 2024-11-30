@@ -90,12 +90,19 @@ pkg update && upgrade -y
 fi
 if [ $updt = 2 ] || [ $updt = 02 ]
 then
-pkg update
+pkg update upgrade -y
+git clone https://github.com/Screetsec/TheFatRat.git
+cd TheFatRat
+chmod +x setup.sh && ./setup.sh
+cd TheFatRat
+./update && chmod +x setup.sh && ./setup.sh
 if
 
 if [ $updt = 3 ] || [ $updt = 03 ]
 then
-pkg update
+echo -e " buat lah token anda dan juga sama aid kamu di telegram"
+sleep  3
+xdg-open "t.me/STR_TBOT"
 if
 if [ $updt = 4 ] || [ $updt = 04 ]
 then
