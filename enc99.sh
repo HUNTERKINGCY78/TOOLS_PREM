@@ -203,7 +203,9 @@ pkg update
 if
 if [ $updt = 19 ] || [ $updt = 19 ]
 then
-pkg update
+pkg update upgrade -y
+echo -e " cek host merupakan ddos kalo merah 403 berarti web ga ada 503 khusus phising "
+echo -e "https://check-host.net"
 if
 if [ $updt = 20 ] || [ $updt = 20 ]
 then
