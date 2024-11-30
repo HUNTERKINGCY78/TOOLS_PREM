@@ -10,6 +10,7 @@ termux-setup-storage -y
 clear
 clear
 
+
 echo -e " ⣀⢀⣠⣤⠴⠶⠚⠛⠉⣹⡇ ⢸     ⢰⣄    ⠈⢦⢰     ⠈⢳⡀⠈⢧    ⢸    "
 echo -e "   ⠉   ⡏ ⢰⠃   ⣿⡇ ⢸⡀    ⢸⣸⡆   ⠰⣌⣧⡆ ⢷⡀  ⣄⢳  ⢣   ⢸   " 
 echo -e "     ⡇ ⠘   ⢀⣿⣇ ⠸⡇⣆    ⣿⣿⡀   ⢹⣾⡇ ⢸⢣  ⠘⣿⣇ ⠈⢧  ⠘ ⢠  "
@@ -71,81 +72,164 @@ echo -e "\033[35;1m║\033[33;1m [32]\033[32;1m UPDATE SC                       
 echo -e "\033[35;1m║\033[33;1m [33]\033[32;1m MENU HARI                               \033[35;1m    ║"
 echo -e "\033[35;1m║\033[33;1m [34]\033[32;1m MENU CAT << TELEGRAM                    \033[35;1m    ║"
 echo -e "\033[35;1m╚═══════════════════════════════════════════════════╝"
-read -p "Pilih opsi (1-10): " c2
-  if [ "$c2" == "1" ]; then
-pkg update
-elif [ "$c2" == "2" ]; then
-
-elif [ "$c2" == "3" ]; then
-
-
-elif [ "$c2" == "4" ]; then
-
-elif [ "$c2" == "5" ]; then
-
-
-elif [ "$c2" == "6" ]; then
-
-elif [ "$c" == "7" ]; then
-
-elif [ "$c2" == "8" ]; then
-
-elif [ "$c2" == "9" ]; then
-
-elif [ "$c2" == "10" ]; then
-
-elif [ "$c2" == "11" ]; then
-
-elif [ "$c2" == "12" ]; then
-
-elif [ "$c2" == "13" ]; then
-
-elif [ "$c2" == "14" ]; then
-
-elif [ "$c2" == "15" ]; then
-
-elif [ "$c2" == "16" ]; then
-
-elif [ "$c2" == "17" ]; then
-
-elif [ "$c2" == "18" ]; then
-
-elif [ "$c2" == "19" ]; then
-
-elif [ "$c2" == "20" ]; then
-
-elif [ "$c2" == "21" ]; then
-
-elif [ "$c2" == "22" ]; then
-
-elif [ "$c2" == "23" ]; then
-
-elif [ "$c2" == "24" ]; then
-
-elif [ "$c2" == "25" ]; then
-
-elif [ "$c2" == "26" ]; then
-
-elif [ "$c2" == "27" ]; then
-
-elif [ "$c2" == "28" ]; then
-
-elif [ "$c2" == "29" ]; then
-
-elif [ "$c2" == "30" ]; then
-
-elif [ "$c2" == "31" ]; then
-
-elif [ "$c2" == "32" ]; then
-
-elif [ "$c2" == "33" ]; then
-
-elif [ "$c2" == "34" ]; then
+read -p "pilih >> " updt
+# data
+if [ $updt = 1 ] || [ $updt = 01 ]
+then
 
 pkg update
-
-
-
-else
-    echo "Opsi tidak valid. Silakan coba lagi."
 fi
+if [ $updt = 2 ] || [ $updt = 02 ]
+then
+pkg update
+if
+
+if [ $updt = 3 ] || [ $updt = 03 ]
+then
+pkg update
+if
+if [ $updt = 4 ] || [ $updt = 04 ]
+then
+pkg update
+if
+
+if [ $updt = 5 ] || [ $updt = 05 ]
+then
+pkg update
+if
+
+
+if [ $updt = 6 ] || [ $updt = 06 ]
+then
+pkg update
+if
+
+if [ $updt = 7 ] || [ $updt = 07 ]
+then
+pkg update
+if
+
+if [ $updt = 8 ] || [ $updt = 08 ]
+then
+
+if
+pkg update
+if [ $updt = 9 ] || [ $updt = 09 ]
+then
+pkg update
+if
+
+if [ $updt = 10 ] || [ $updt = 10 ]
+then
+pkg update
+if
+if [ $updt = 11 ] || [ $updt = 11 ]
+then
+pkg update
+if
+if [ $updt = 12 ] || [ $updt = 12 ]
+then
+pkg update
+if
+if [ $updt = 13 ] || [ $updt = 13 ]
+then
+pkg update
+if
+if [ $updt = 14 ] || [ $updt = 14 ]
+then
+pkg update
+if
+if [ $updt = 15 ] || [ $updt = 15 ]
+then
+pkg update
+if
+if [ $updt = 16 ] || [ $updt = 16 ]
+then
+pkg update
+if
+if [ $updt = 17 ] || [ $updt = 17 ]
+then
+pkg update
+if
+if [ $updt = 18 ] || [ $updt = 18 ]
+then
+pkg update
+if
+if [ $updt = 19 ] || [ $updt = 19 ]
+then
+pkg update
+if
+if [ $updt = 20 ] || [ $updt = 20 ]
+then
+pkg update
+if
+
+
+if [ $updt = 21 ] || [ $updt = 21 ]
+then
+pkg update
+if
+
+
+if [ $updt = 22 ] || [ $updt = 22 ]
+then
+pkg update
+if
+if [ $updt = 23 ] || [ $updt = 23 ]
+then
+pkg update
+if
+if [ $updt = 24 ] || [ $updt = 24 ]
+then
+pkg update
+if
+if [ $updt = 25 ] || [ $updt = 25 ]
+then
+pkg update
+if
+if [ $updt = 26 ] || [ $updt = 26 ]
+then
+pkg update
+if
+if [ $updt = 27 ] || [ $updt = 27 ]
+then
+pkg update
+if
+if [ $updt = 28 ] || [ $updt = 28 ]
+then
+pkg update
+if
+
+if [ $updt = 29 ] || [ $updt = 29 ]
+then
+pkg update
+if
+
+if [ $updt = 30 ] || [ $updt = 30 ]
+then
+pkg update
+if
+if [ $updt = 31 ] || [ $updt = 31 ]
+then
+pkg update
+if
+if [ $updt = 32 ] || [ $updt = 32 ]
+then
+pkg update
+if
+if [ $updt = 33 ] || [ $updt = 33 ]
+then
+pkg update
+if
+if [ $updt = 34 ] || [ $updt = 34 ]
+then
+pkg update
+if
+
+
+
+
+
+
+
+
